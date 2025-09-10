@@ -48,6 +48,10 @@
 
 ```sudo zerotier-cli join 9e1948db634eafb7```
 
+Затем открыть порт `9993` в фаерволле системы:
+
+```sudo firewall-cmd --add-port=9993/udp```
+
 ### 1.2. Установка в Windows
 
 Воспользуйтесь [установочным файлом] (https://download.zerotier.com/dist/ZeroTier%20One.msi).
